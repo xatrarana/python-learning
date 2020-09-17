@@ -1,0 +1,9 @@
+Dictonary in python:
+
+1. key value pair
+2. using keys, you can acess the values
+3. values are mutable,keys are immutable
+4. very useful datastructure
+5. similar to the map  in javascript and the hashmap in java
+6. different form list and tuples
+7. key:value --> an item

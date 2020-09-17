@@ -1,0 +1,129 @@
+python data structure::list and tuple
+
+
+=====================================>strings<=============================
+
+>>> a_b="hey user"
+>>> print(a_b)
+hey user
+
+=====================================>indexing<============================
+>>> a_b[2]                      #negative integers  >>> a_b[-2]
+>>>'y'                                              >>> 'e'
+
+
+======================================>lists<================================
+a collection of data......
+
+>>> pen=[1,2,3,4,5,6]
+>>> pen
+[1, 2, 3, 4, 5, 6]
+
+>>> pen.append(25)                   ///////append()
+>>> print(pen)
+[1, 2, 3, 4, 5, 6, 25]
+
+>>> pen.extend([16,35])          /.///////extend()
+>>> print(pen)
+[1, 2, 3, 4, 5, 6, 25, 30, 16, 35]
+
+list method and functions e.g==>> sum(), max(), min(), len(), any(),all()
+
+ >>> odd=[1,3,5,7,9,11,13]
+>>> odd.insert(-1,19)                 /////insert()
+>>> odd
+[1, 3, 5, 7, 6, 9, 11, 13,19]
+
+
+>>> odd.sort(reverse=True)              //////reverse()
+>>> odd
+[19, 13, 11, 9, 7, 5, 5, 3, 1]
+>>> odd.sort()                         /////sort()
+>>> odd
+[1, 3, 5, 5, 7, 9, 11, 13, 19]
+
+
+>>>odd.pop(3)      /////it need index of the element but in remove u need just to give the value to remove in the list/.
+5
+>>> odd
+[1, 3, 5, 7, 9, 11, 13, 19]
+
+          ///////////  count()  ///count the value of repeted element in the list....
+                      if you pass the value that is not in the list it will not throw any error it gives 0 as result.
+                       in remove() it throws the error..
+
+
+                      ////////index()
+                       it gives the indexing value of the element....
+                       //////copy()
+                       it gives the copy of the list to store in next variables............
+
+
+
+
+
+
+
+
+
+
+
+
+=====================================>tuple <===============================
+almost simillar to the list:
+but ===>>>>
+tuple [immuatable] you can't change the value:       list[mutable] can chage the value
+it is created by () or without the ()
+
+>>> num=1,2,3,4,5,6,7,8,9
+>>> num
+(1, 2, 3, 4, 5, 6, 7, 8, 9)
+>>> print(type(num))
+<class 'tuple'>
+>>>
+
+
+
+
+
+
+
+
+=====================================>dictonary<============================
+
+
+
+
+==================================================>join=============================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>> words=["i","am","a","good"]
+>>> "".join(words)
+'iamagood'
+>>> " ".join(words)
+'i am a good'
+
+
+
+
+
+
+=========================>slicing<==========================
+
+>>> ##slicing
+>>> fruit="orange"
+>>> fruit="apple"
+>>> ##string_name[start:stop:step]
+>>> fruit[0:3]
+'app'
+>>> fruit[-1:-2:-1]
+'e'
+>>> fruit[:4:]
+'appl'
+>>> fruit[:3:-1]
+'e'
+>>> fruit[0::3]
+'al'
+>>> fruit[::]
+'apple'
+
+
+
