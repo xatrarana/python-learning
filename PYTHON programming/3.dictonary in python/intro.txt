@@ -7,3 +7,54 @@ Dictonary in python:
 5. similar to the map  in javascript and the hashmap in java
 6. different form list and tuples
 7. key:value --> an item
+8. to create a dictonary use {}
+name:chhatra ===> key:value
+age:20
+contact:9866615324
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++method of the dictonary +++++++++++++++++++++++++++++++++++++++++++++++
+
+>>> details={'name':'chhatra','age':20,'grade':10}
+>>> details.keys()
+dict_keys(['name', 'age', 'grade'])
+>>> details.values()
+dict_values(['chhatra', 20, 10])
+>>> details.copy()
+{'name': 'chhatra', 'age': 20, 'grade': 10}
+
+>>> details.pop("name")  ######to remove
+'chhatra'
+>>> details
+{'age': 20, 'grade': 10}
+>>>
+
+
+
+===============================>set<==========================================================
+
+
+>>> set1={1,2,3,4}
+>>> type(set1)
+<class 'set'>
+>>>  they are immutable.....they dont have any index and they are unorder.
+
+
++++++++++++++to create the empty set
+>>> y=set{}
+>>> type(y)
+>>> <class'set'>       ####we cant change the value put input the value...
+
+>>> set1
+{1, 2, 3, 4}
+>>> set1.add(4)             ###adding the values
+>>> set1.remove(3)
+>>> set1
+{1, 2, 4}
+>>> set1.discard(4)     ####remove the values
+>>> set1
+{1, 2}
+>>>
